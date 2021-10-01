@@ -1,0 +1,81 @@
+body {
+  font-size: 20px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+}
+
+.main .main__inner {
+  margin: 14% 0;
+}
+
+.main .main__inner h3 {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.main .main__inner a {
+  font-size: 15px;
+  position: relative;
+  bottom: 20px;
+  right: 10px;
+}
+
+.main .main__inner #d1 {
+  background: grey;
+  font-size: 30px;
+}
+
+.main .main__inner .input {
+  text-align: center;
+  background: #f0ecec;
+  padding: 30px;
+}
+
+.main .main__inner .button-pass {
+  margin-bottom: 20px;
+  position: relative;
+  left: 2px;
+}
+
+.main .main__inner .number-input {
+  width: 98%;
+  position: relative;
+  left: 11px;
+}
+
+.footer {
+  background: whitesmoke;
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer .footer__inner {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .footer__inner a {
+  color: black;
+}
+/*# sourceMappingURL=index.css.map */

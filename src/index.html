@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="scss/index.css">
+        <title>Generate Password</title>
+    </head>
+    <body>
+
+        <!--Body-->
+
+        <form class="form">
+
+            <!--Navbar-->
+
+            <nav>
+                <div class="nav-wrapper navbar blue">
+                  <div class="container">
+                    <a href="#" class="brand-logo">G. Password</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Copyright by. Hellen</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+            <!--Main-->
+
+            <div class="main">
+                <div class="container">
+                    <div class="main__inner">
+                        <h3>Generate Password</h3>
+                        <div class="row">
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s12 number-input">
+                                    <input id="number" type="text" class="validate" minlength="6">
+                                    <label for="number">Enter the number of characters in the password</label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <a class="btn waves-effect waves-light btn-small button-pass">Generate</a>
+                        <h6 class="input"></h6>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+        
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </body>
+</html>
